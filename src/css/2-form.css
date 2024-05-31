@@ -21,6 +21,15 @@
 .form-input {
   width: 360px;
   height: 40px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
   border: 1px solid #808080;
   border-radius: 4px;
   background-color: transparent;
@@ -31,14 +40,9 @@
   border: 1px solid #000;
 }
 .form-input:active {
-border: 1px solid #808080;
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #2e2f42;
+  border: 1px solid #808080;
 }
+
 .form-message-wrapper {
   margin-bottom: 16px;
 }
@@ -46,6 +50,14 @@ color: #2e2f42;
 .form-message {
   width: 360px;
   height: 80px;
+  padding-left: 16px;
+  padding-top: 8px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
   border: 1px solid #808080;
   border-radius: 4px;
   background-color: transparent;
@@ -58,14 +70,9 @@ color: #2e2f42;
 }
 
 .form-message:active {
-    border: 1px solid #808080;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #2e2f42;
+  border: 1px solid #808080;
 }
+
 .form-submit-btn {
   min-width: 95px;
   height: 40px;
@@ -88,5 +95,5 @@ color: #2e2f42;
   background: #6c8cff;
 }
 .form-submit-btn:focus {
-    outline: none;
+  outline: none;
 }
