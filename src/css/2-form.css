@@ -1,0 +1,92 @@
+.wrapper-form {
+  width: 408px;
+  height: 296px;
+  border-radius: 8px;
+  padding: 24px;
+  background: #fff;
+}
+.form-field-wrapper {
+  margin-bottom: 8px;
+}
+.form-label {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.form-input {
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  background-color: transparent;
+  outline: transparent;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-input:hover {
+  border: 1px solid #000;
+}
+.form-input:active {
+border: 1px solid #808080;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+}
+.form-message-wrapper {
+  margin-bottom: 16px;
+}
+
+.form-message {
+  width: 360px;
+  height: 80px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  background-color: transparent;
+  outline: transparent;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-message:hover {
+  border: 1px solid #000;
+}
+
+.form-message:active {
+    border: 1px solid #808080;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+.form-submit-btn {
+  min-width: 95px;
+  height: 40px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  background-color: #4e75ff;
+  padding: 0 10px;
+  transition: color 250ms linear, background-color 250ms linear;
+}
+
+.form-submit-btn:hover {
+  border-radius: 8px;
+  padding: 8px 16px;
+  background: #6c8cff;
+}
+.form-submit-btn:focus {
+    outline: none;
+}

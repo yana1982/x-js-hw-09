@@ -1,0 +1,27 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 1440px;
+  gap: 24px;
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item {
+  list-style: none;
+}
+.gallery-link {
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+}
+.sl-overlay {
+  background-color: #2e2f42;
+}
